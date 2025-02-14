@@ -9,4 +9,5 @@ header{
     grid-template-columns: repeat(1fr);
     align-self: center;
     align-items: center;
+    justify-content: center;
 }
