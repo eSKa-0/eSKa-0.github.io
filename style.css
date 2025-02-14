@@ -1,13 +1,8 @@
 header{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
+    grid-template-columns: 2fr repeat(4, 3fr) 2fr;
     justify-items: center;
 }
-.headernav{
-    display: grid;
-    grid-template-columns: repeat(1fr);
+header>a{
     align-self: center;
-    align-items: center;
-    justify-content: center;
 }
